@@ -89,7 +89,7 @@ const GoogleSimulation: React.FC<GoogleSimulationProps> = ({ searchType = 'todd'
     return (
       <div style={{ padding: '20px', textAlign: 'center' }}>
         <h1>No results found</h1>
-        <p>Greg Krieger results are not available.</p>
+        <p>Todd Smith results are not available.</p>
       </div>
     );
   }
