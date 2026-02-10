@@ -113,70 +113,88 @@ export const KnowledgePanel: React.FC<KnowledgePanelProps> = ({ isDark = false }
         color: isDark ? '#9aa0a6' : '#70757a',
         marginBottom: '16px'
       }}>
-        Source: Google Books
+        Source: <a href="#" style={{
+          color: isDark ? '#8ab4f8' : '#1a0dab',
+          textDecoration: 'none'
+        }}>Google Books</a>
       </div>
 
-      {/* Age Section */}
+      {/* Age and Books - Side by Side Cards */}
       <div style={{
         borderTop: `1px solid ${isDark ? '#3c4043' : '#ebebeb'}`,
         paddingTop: '12px',
-        marginBottom: '12px'
+        marginBottom: '12px',
+        display: 'grid',
+        gridTemplateColumns: '1fr 1fr',
+        gap: '12px'
       }}>
+        {/* Age Card */}
         <div style={{
-          fontSize: '14px',
-          color: isDark ? '#e8eaed' : '#202124',
-          fontWeight: 500,
-          marginBottom: '4px'
+          padding: '12px',
+          backgroundColor: isDark ? '#2d2d2d' : '#f8f9fa',
+          borderRadius: '8px'
         }}>
-          34 years
-        </div>
-        <div style={{
-          fontSize: '14px',
-          color: isDark ? '#bdc1c6' : '#5f6368'
-        }}>
-          Apr 11, 1991
-        </div>
-      </div>
-
-      {/* Books Section */}
-      <div style={{
-        borderTop: `1px solid ${isDark ? '#3c4043' : '#ebebeb'}`,
-        paddingTop: '12px',
-        marginBottom: '12px'
-      }}>
-        <div style={{
-          fontSize: '14px',
-          color: isDark ? '#e8eaed' : '#202124',
-          fontWeight: 500,
-          marginBottom: '4px'
-        }}>
-          Books
-        </div>
-        <div style={{
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'space-between',
-          marginTop: '8px'
-        }}>
-          <div>
-            <div style={{
-              fontSize: '14px',
-              color: isDark ? '#8ab4f8' : '#1a0dab',
-              textDecoration: 'none'
-            }}>
-              I'll Give You a Dollar If You...
-            </div>
-            <div style={{
-              fontSize: '12px',
-              color: isDark ? '#9aa0a6' : '#70757a',
-              marginTop: '2px'
-            }}>
-              2019
-            </div>
+          <div style={{
+            fontSize: '12px',
+            color: isDark ? '#9aa0a6' : '#70757a',
+            marginBottom: '4px',
+            textTransform: 'uppercase',
+            letterSpacing: '0.5px'
+          }}>
+            Age
           </div>
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" style={{ color: isDark ? '#9aa0a6' : '#70757a' }}>
-            <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z" fill="currentColor"/>
-          </svg>
+          <div style={{
+            fontSize: '14px',
+            color: isDark ? '#e8eaed' : '#202124',
+            fontWeight: 500,
+            marginBottom: '2px'
+          }}>
+            34 years
+          </div>
+          <div style={{
+            fontSize: '12px',
+            color: isDark ? '#bdc1c6' : '#5f6368'
+          }}>
+            Apr 11, 1991
+          </div>
+        </div>
+
+        {/* Books Card */}
+        <div style={{
+          padding: '12px',
+          backgroundColor: isDark ? '#2d2d2d' : '#f8f9fa',
+          borderRadius: '8px',
+          position: 'relative'
+        }}>
+          <div style={{
+            fontSize: '12px',
+            color: isDark ? '#9aa0a6' : '#70757a',
+            marginBottom: '4px',
+            textTransform: 'uppercase',
+            letterSpacing: '0.5px',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'space-between'
+          }}>
+            <span>Books</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" style={{ color: isDark ? '#9aa0a6' : '#70757a' }}>
+              <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z" fill="currentColor"/>
+            </svg>
+          </div>
+          <div style={{
+            fontSize: '14px',
+            color: isDark ? '#8ab4f8' : '#1a0dab',
+            textDecoration: 'none',
+            marginBottom: '2px'
+          }}>
+            I'll Give You a Dollar If You...
+          </div>
+          <div style={{
+            fontSize: '12px',
+            color: isDark ? '#bdc1c6' : '#5f6368'
+          }}>
+            2019
+          </div>
         </div>
       </div>
 
@@ -189,16 +207,23 @@ export const KnowledgePanel: React.FC<KnowledgePanelProps> = ({ isDark = false }
           fontSize: '14px',
           color: isDark ? '#e8eaed' : '#202124',
           fontWeight: 500,
-          marginBottom: '4px'
+          marginBottom: '8px'
         }}>
           Parents
         </div>
         <div style={{
           fontSize: '14px',
-          color: isDark ? '#bdc1c6' : '#5f6368',
+          color: isDark ? '#8ab4f8' : '#1a0dab',
           marginTop: '4px'
         }}>
-          Jane Brodie, Murray Denys Stockley-Smith
+          <a href="#" style={{
+            color: isDark ? '#8ab4f8' : '#1a0dab',
+            textDecoration: 'none',
+            marginRight: '8px'
+          }}>Jane Brodie</a>, <a href="#" style={{
+            color: isDark ? '#8ab4f8' : '#1a0dab',
+            textDecoration: 'none'
+          }}>Murray Denys Stockley-Smith</a>
         </div>
       </div>
     </div>
