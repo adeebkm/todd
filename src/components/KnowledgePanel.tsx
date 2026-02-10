@@ -19,7 +19,10 @@ export const KnowledgePanel: React.FC<KnowledgePanelProps> = ({ isDark = false }
       border: '1px solid #dadce0',
       borderRadius: '8px',
       backgroundColor: isDark ? '#1f1f1f' : '#fff',
-      boxShadow: '0 1px 6px rgba(32,33,36,.28)'
+      boxShadow: '0 1px 6px rgba(32,33,36,.28)',
+      alignSelf: 'flex-start',
+      position: 'sticky',
+      top: '20px'
     }}>
       {/* Title */}
       <div style={{ marginBottom: '12px' }}>
