@@ -2078,7 +2078,7 @@ export const RESULTS_Low_Absent: SimResult[] = [
 ];
 
 // Low Discoverability - Todd Smith (cluttered results, many different people)
-export const RESULTS_Todd_Smith: SimResult[
+export const RESULTS_Todd_Smith: SimResult[] = [
   // Page 1
   {
     id: "todd1",
