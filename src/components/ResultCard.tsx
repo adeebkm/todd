@@ -404,7 +404,7 @@ export const ResultCard: React.FC<ResultCardProps> = ({ result, onOpen, isDark }
   };
 
   return (
-    <div className="g" style={{ marginBottom: '24px', maxWidth: '652px' }}>
+    <div className="g" style={{ marginBottom: '12px', maxWidth: '652px' }}>
       {/* Platform and Ellipsis Header */}
       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '2px' }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: '12px', overflow: 'hidden' }}>
