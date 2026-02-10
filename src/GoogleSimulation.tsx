@@ -7,6 +7,7 @@ import { LinkedInProfileView as LinkedInProfile } from './components/LinkedInPro
 import { FacebookProfileView as FacebookProfile } from './components/FacebookProfile';
 import { PeopleAlsoSearchFor } from './components/PeopleAlsoSearchFor';
 import { ImagesSection } from './components/ImagesSection';
+import { KnowledgePanel } from './components/KnowledgePanel';
 import {
   RESULTS_Todd_Smith,
   type SimResult
@@ -220,6 +221,11 @@ const GoogleSimulation: React.FC<GoogleSimulationProps> = ({ searchType = 'todd'
               />
             )}
           </div>
+
+          {/* Knowledge Panel - Right Side */}
+          {activeTab === 'All' && currentPage === 1 && (
+            <KnowledgePanel isDark={isDark} />
+          )}
         </div>
       </div>
 
