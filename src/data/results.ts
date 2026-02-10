@@ -2687,11 +2687,5 @@ export const RESULTS_Todd_Smith: SimResult[] = [
 ];
 
 export const RESULTS = {
-  High_Present: RESULTS_High_Present,
-  High_Absent: RESULTS_High_Absent,
-  Low_Present: RESULTS_Low_Present,
-  Low_Absent: RESULTS_Low_Absent,
-  Adeeb_Present: RESULTS_Adeeb_Present,
-  Brycen_Tremayne: RESULTS_Brycen_Tremayne,
   Todd_Smith: RESULTS_Todd_Smith,
 };
