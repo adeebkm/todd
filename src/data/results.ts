@@ -2253,7 +2253,7 @@ export const RESULTS_Todd_Smith: SimResult[] = [
     id: "todd15",
     platform: "News",
     displayName: "Todd Smith Authors New Book on Local History",
-    snippet: "Local historian Todd Smith has released his third book, "The History of Our Town: 200 Years of Progress." The comprehensive volume documents the town's evolution from a small farming community to a thriving city...",
+      snippet: "Local historian Todd Smith has released his third book, \"The History of Our Town: 200 Years of Progress.\" The comprehensive volume documents the town's evolution from a small farming community to a thriving city...",
     urlLike: "booknews.com › releases › todd-smith-history-book",
     discoverability: "Low",
     footprint: "Present",
