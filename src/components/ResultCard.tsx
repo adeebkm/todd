@@ -438,13 +438,13 @@ export const ResultCard: React.FC<ResultCardProps> = ({ result, onOpen, isDark }
 
       {/* Followers line if applicable */}
       {followerCount && (
-        <div style={{ color: subTextColorVal, fontSize: '12px', marginLeft: '0', marginTop: '-2px', marginBottom: '2px' }}>
+        <div style={{ color: subTextColorVal, fontSize: '12px', marginLeft: '0', marginTop: '-2px', marginBottom: '1px' }}>
           {followerCount} followers
         </div>
       )}
 
       {/* Title */}
-      <h3 style={{ margin: '4px 0 0 0', padding: 0 }}>
+      <h3 style={{ margin: '2px 0 0 0', padding: 0 }}>
         <a
           href="#"
           onClick={(e) => {
@@ -466,7 +466,7 @@ export const ResultCard: React.FC<ResultCardProps> = ({ result, onOpen, isDark }
       </h3>
 
       {/* Content Area with optional Side Image */}
-      <div style={{ display: 'flex', gap: '16px', marginTop: '2px', marginLeft: '0' }}>
+      <div style={{ display: 'flex', gap: '16px', marginTop: '1px', marginLeft: '0' }}>
         <div style={{ flex: 1 }}>
           {/* Info Row: Location, Role, Company */}
           {result.currentRole && (
