@@ -2655,6 +2655,43 @@ export const RESULTS_Todd_Smith: SimResult[] = [
     race: "White American",
     location: "",
     imageKey: "avatar47"
+  },
+  {
+    id: "todd48",
+    platform: "Todd Smith Consulting",
+    displayName: "Author – Todd Smith Consulting",
+    snippet: "Todd Smith Consulting offers leadership development, business strategy, and executive coaching services. Helping leaders and organizations reach their full potential.",
+    urlLike: "toddsmithconsulting.com › author",
+    discoverability: "Low",
+    footprint: "Present",
+    race: "White American",
+    location: "",
+    imageKey: "avatar48"
+  },
+  {
+    id: "todd49",
+    platform: "TikTok",
+    displayName: "todd smith (@officialtoddsmith)",
+    snippet: "410+ followers. Singer, songwriter, and lead vocalist of Selah. Sharing faith, family, and music. Follow for behind-the-scenes content.",
+    urlLike: "TikTok · todd smith",
+    discoverability: "Low",
+    footprint: "Present",
+    race: "White American",
+    location: "",
+    followers: "410+",
+    imageKey: "avatar49"
+  },
+  {
+    id: "todd50",
+    platform: "Vickers Funeral Home",
+    displayName: "Obituary information for Todd Michel Smith",
+    snippet: "View the obituary for Todd Michel Smith. Share memories, leave condolences, and find funeral service information at Vickers Funeral Home.",
+    urlLike: "www.vickersfuneralhomes.com › obituaries › Tod...",
+    discoverability: "Low",
+    footprint: "Present",
+    race: "White American",
+    location: "",
+    imageKey: "avatar50"
   }
 ];
 
