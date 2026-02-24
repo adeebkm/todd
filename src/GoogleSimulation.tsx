@@ -2,17 +2,14 @@ import React, { useState, useMemo, useEffect } from 'react';
 import { TopBar } from './components/TopBar';
 import { Tabs } from './components/Tabs';
 import { ResultCard } from './components/ResultCard';
-import { ResultModal } from './components/ResultModal';
-import { LinkedInProfileView as LinkedInProfile } from './components/LinkedInProfile';
-import { FacebookProfileView as FacebookProfile } from './components/FacebookProfile';
 import { PeopleAlsoSearchFor } from './components/PeopleAlsoSearchFor';
-import { ImagesSection } from './components/ImagesSection';
 import { KnowledgePanel } from './components/KnowledgePanel';
 import {
   RESULTS_Todd_Smith,
   type SimResult
 } from './data/results';
 import { getRelatedSearches } from './data/relatedSearches';
+import { trackPageView, trackTabChange, trackPagination, trackSearch, trackResultClick } from './utils/tracking';
 
 interface GoogleSimulationProps {
   searchType?: 'todd';
@@ -21,12 +18,16 @@ interface GoogleSimulationProps {
 const GoogleSimulation: React.FC<GoogleSimulationProps> = ({ searchType = 'todd' }) => {
   const [searchQuery, setSearchQuery] = useState('Todd Smith');
   const [activeTab, setActiveTab] = useState('All');
-  const [selectedResult, setSelectedResult] = useState<SimResult | null>(null);
   const [currentPage, setCurrentPage] = useState(1);
   const resultsPerPage = 10;
 
   // Force light mode as requested
   const isDark = false;
+
+  // Track page view on mount
+  useEffect(() => {
+    trackPageView('todd', currentPage, activeTab);
+  }, []);
 
   // Reset to first page when activeTab changes
   useEffect(() => {
@@ -97,8 +98,8 @@ const GoogleSimulation: React.FC<GoogleSimulationProps> = ({ searchType = 'todd'
 
   return (
     <div style={{ minHeight: '100vh', backgroundColor: '#fff' }}>
-      <TopBar searchQuery={searchQuery} onSearchChange={setSearchQuery} isDark={isDark} />
-      <Tabs activeTab={activeTab} onTabChange={setActiveTab} isDark={isDark} />
+      <TopBar searchQuery={searchQuery} onSearchChange={(q) => { setSearchQuery(q); trackSearch(q, 'todd'); }} isDark={isDark} />
+      <Tabs activeTab={activeTab} onTabChange={(tab) => { setActiveTab(tab); trackTabChange(tab, 'todd'); }} isDark={isDark} />
 
       <div style={{ maxWidth: '1128px', margin: '0 auto', padding: '0 16px' }}>
         <div style={{ display: 'flex', gap: '32px', paddingTop: '20px' }}>
@@ -123,7 +124,10 @@ const GoogleSimulation: React.FC<GoogleSimulationProps> = ({ searchType = 'todd'
                     <React.Fragment key={result.id}>
                       <ResultCard
                         result={result}
-                        onOpen={setSelectedResult}
+                        onOpen={(result) => {
+                          trackResultClick(result.id, result.platform, result.displayName, 'todd');
+                          // Low-disc persona: no profile views open, just track the click
+                        }}
                         isDark={isDark}
                       />
                     </React.Fragment>
@@ -146,7 +150,7 @@ const GoogleSimulation: React.FC<GoogleSimulationProps> = ({ searchType = 'todd'
               }}>
                 {currentPage > 1 && (
                   <button
-                    onClick={() => setCurrentPage(currentPage - 1)}
+                    onClick={() => { const p = currentPage - 1; setCurrentPage(p); trackPagination(p, 'todd'); }}
                     style={{
                       padding: '8px 16px',
                       border: '1px solid #dadce0',
@@ -171,7 +175,7 @@ const GoogleSimulation: React.FC<GoogleSimulationProps> = ({ searchType = 'todd'
                   return (
                     <button
                       key={pageNum}
-                      onClick={() => setCurrentPage(pageNum)}
+                      onClick={() => { setCurrentPage(pageNum); trackPagination(pageNum, 'todd'); }}
                       style={{
                         minWidth: '40px',
                         height: '40px',
@@ -192,7 +196,7 @@ const GoogleSimulation: React.FC<GoogleSimulationProps> = ({ searchType = 'todd'
 
                 {currentPage < totalPages && (
                   <button
-                    onClick={() => setCurrentPage(currentPage + 1)}
+                    onClick={() => { const p = currentPage + 1; setCurrentPage(p); trackPagination(p, 'todd'); }}
                     style={{
                       padding: '8px 16px',
                       border: '1px solid #dadce0',
@@ -215,7 +219,7 @@ const GoogleSimulation: React.FC<GoogleSimulationProps> = ({ searchType = 'todd'
             {/* People Also Search For */}
             {activeTab === 'All' && filteredResults.length > 0 && (
               <PeopleAlsoSearchFor 
-                searches={getRelatedSearches(searchQuery || 'Michael Johnson')} 
+                searches={getRelatedSearches(searchQuery || 'Todd Smith')} 
                 searchQuery={searchQuery}
                 onSearchClick={setSearchQuery}
               />
@@ -228,26 +232,6 @@ const GoogleSimulation: React.FC<GoogleSimulationProps> = ({ searchType = 'todd'
           )}
         </div>
       </div>
-
-      {/* Result Modal, LinkedIn Profile, or Facebook Profile */}
-      {selectedResult && (
-        selectedResult.platform === 'LinkedIn' ? (
-          <LinkedInProfile
-            resultId={selectedResult.id}
-            onClose={() => setSelectedResult(null)}
-          />
-        ) : selectedResult.platform === 'Facebook' ? (
-          <FacebookProfile
-            resultId={selectedResult.id}
-            onClose={() => setSelectedResult(null)}
-          />
-        ) : (
-          <ResultModal
-            result={selectedResult}
-            onClose={() => setSelectedResult(null)}
-          />
-        )
-      )}
     </div>
   );
 };
