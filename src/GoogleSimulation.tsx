@@ -105,9 +105,12 @@ const GoogleSimulation: React.FC<GoogleSimulationProps> = ({ searchType = 'todd'
         {/* Back to survey button - outside the results column */}
         <div style={{ paddingTop: '20px', paddingBottom: '8px' }}>
           <button
-            onClick={(e) => {
-              e.preventDefault();
-              // Non-functional for now
+            onClick={() => {
+              const params = new URLSearchParams(window.location.search);
+              const returnUrl = params.get('returnUrl');
+              if (returnUrl) {
+                window.location.href = returnUrl;
+              }
             }}
             style={{
               backgroundColor: '#1a73e8',
@@ -131,7 +134,7 @@ const GoogleSimulation: React.FC<GoogleSimulationProps> = ({ searchType = 'todd'
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
               <path d="M19 12H5M12 19l-7-7 7-7"/>
             </svg>
-            <span>Back to survey</span>
+            <span>Done Searching</span>
           </button>
         </div>
         <div style={{ display: 'flex', gap: '32px' }}>

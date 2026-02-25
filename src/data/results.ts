@@ -34,7 +34,7 @@ export type SimResult = {
 
 
 
-  footprint: "Present" | "Absent";
+  footprint: "Absent" | "Absent";
 
 
 
@@ -142,7 +142,7 @@ export const RESULTS_High_Present: SimResult[] = [
 
 
 
-    footprint: "Present",
+    footprint: "Absent",
 
 
 
@@ -190,7 +190,7 @@ export const RESULTS_High_Present: SimResult[] = [
 
 
 
-    footprint: "Present",
+    footprint: "Absent",
 
 
 
@@ -238,7 +238,7 @@ export const RESULTS_High_Present: SimResult[] = [
 
 
 
-    footprint: "Present",
+    footprint: "Absent",
 
 
 
@@ -286,7 +286,7 @@ export const RESULTS_High_Present: SimResult[] = [
 
 
 
-    footprint: "Present",
+    footprint: "Absent",
 
 
 
@@ -334,7 +334,7 @@ export const RESULTS_High_Present: SimResult[] = [
 
 
 
-    footprint: "Present",
+    footprint: "Absent",
 
 
 
@@ -382,7 +382,7 @@ export const RESULTS_High_Present: SimResult[] = [
 
 
 
-    footprint: "Present",
+    footprint: "Absent",
 
 
 
@@ -430,7 +430,7 @@ export const RESULTS_High_Present: SimResult[] = [
 
 
 
-    footprint: "Present",
+    footprint: "Absent",
 
 
 
@@ -478,7 +478,7 @@ export const RESULTS_High_Present: SimResult[] = [
 
 
 
-    footprint: "Present",
+    footprint: "Absent",
 
 
 
@@ -526,7 +526,7 @@ export const RESULTS_High_Present: SimResult[] = [
 
 
 
-    footprint: "Present",
+    footprint: "Absent",
 
 
 
@@ -574,7 +574,7 @@ export const RESULTS_High_Present: SimResult[] = [
 
 
 
-    footprint: "Present",
+    footprint: "Absent",
 
 
 
@@ -622,7 +622,7 @@ export const RESULTS_High_Present: SimResult[] = [
 
 
 
-    footprint: "Present",
+    footprint: "Absent",
 
 
 
@@ -670,7 +670,7 @@ export const RESULTS_High_Present: SimResult[] = [
 
 
 
-    footprint: "Present",
+    footprint: "Absent",
 
 
 
@@ -718,7 +718,7 @@ export const RESULTS_High_Present: SimResult[] = [
 
 
 
-    footprint: "Present",
+    footprint: "Absent",
 
 
 
@@ -766,7 +766,7 @@ export const RESULTS_High_Present: SimResult[] = [
 
 
 
-    footprint: "Present",
+    footprint: "Absent",
 
 
 
@@ -814,7 +814,7 @@ export const RESULTS_High_Present: SimResult[] = [
 
 
 
-    footprint: "Present",
+    footprint: "Absent",
 
 
 
@@ -862,7 +862,7 @@ export const RESULTS_High_Present: SimResult[] = [
 
 
 
-    footprint: "Present",
+    footprint: "Absent",
 
 
 
@@ -910,7 +910,7 @@ export const RESULTS_High_Present: SimResult[] = [
 
 
 
-    footprint: "Present",
+    footprint: "Absent",
 
 
 
@@ -958,7 +958,7 @@ export const RESULTS_High_Present: SimResult[] = [
 
 
 
-    footprint: "Present",
+    footprint: "Absent",
 
 
 
@@ -1006,7 +1006,7 @@ export const RESULTS_High_Present: SimResult[] = [
 
 
 
-    footprint: "Present",
+    footprint: "Absent",
 
 
 
@@ -1054,7 +1054,7 @@ export const RESULTS_High_Present: SimResult[] = [
 
 
 
-    footprint: "Present",
+    footprint: "Absent",
 
 
 
@@ -1102,7 +1102,7 @@ export const RESULTS_High_Present: SimResult[] = [
 
 
 
-    footprint: "Present",
+    footprint: "Absent",
 
 
 
@@ -1150,7 +1150,7 @@ export const RESULTS_High_Present: SimResult[] = [
 
 
 
-    footprint: "Present",
+    footprint: "Absent",
 
 
 
@@ -1198,7 +1198,7 @@ export const RESULTS_High_Present: SimResult[] = [
 
 
 
-    footprint: "Present",
+    footprint: "Absent",
 
 
 
@@ -1246,7 +1246,7 @@ export const RESULTS_High_Present: SimResult[] = [
 
 
 
-    footprint: "Present",
+    footprint: "Absent",
 
 
 
@@ -1294,7 +1294,7 @@ export const RESULTS_High_Present: SimResult[] = [
 
 
 
-    footprint: "Present",
+    footprint: "Absent",
 
 
 
@@ -1342,7 +1342,7 @@ export const RESULTS_High_Present: SimResult[] = [
 
 
 
-    footprint: "Present",
+    footprint: "Absent",
 
 
 
@@ -1390,7 +1390,7 @@ export const RESULTS_High_Present: SimResult[] = [
 
 
 
-    footprint: "Present",
+    footprint: "Absent",
 
 
 
@@ -1438,7 +1438,7 @@ export const RESULTS_High_Present: SimResult[] = [
 
 
 
-    footprint: "Present",
+    footprint: "Absent",
 
 
 
@@ -1486,7 +1486,7 @@ export const RESULTS_High_Present: SimResult[] = [
 
 
 
-    footprint: "Present",
+    footprint: "Absent",
 
 
 
@@ -1534,7 +1534,7 @@ export const RESULTS_High_Present: SimResult[] = [
 
 
 
-    footprint: "Present",
+    footprint: "Absent",
 
 
 
@@ -1582,7 +1582,7 @@ export const RESULTS_High_Present: SimResult[] = [
 
 
 
-    footprint: "Present",
+    footprint: "Absent",
 
 
 
@@ -1630,7 +1630,7 @@ export const RESULTS_High_Present: SimResult[] = [
 
 
 
-    footprint: "Present",
+    footprint: "Absent",
 
 
 
@@ -1678,7 +1678,7 @@ export const RESULTS_High_Present: SimResult[] = [
 
 
 
-    footprint: "Present",
+    footprint: "Absent",
 
 
 
@@ -1726,7 +1726,7 @@ export const RESULTS_High_Present: SimResult[] = [
 
 
 
-    footprint: "Present",
+    footprint: "Absent",
 
 
 
@@ -1774,7 +1774,7 @@ export const RESULTS_High_Present: SimResult[] = [
 
 
 
-    footprint: "Present",
+    footprint: "Absent",
 
 
 
@@ -1822,7 +1822,7 @@ export const RESULTS_High_Present: SimResult[] = [
 
 
 
-    footprint: "Present",
+    footprint: "Absent",
 
 
 
@@ -1870,7 +1870,7 @@ export const RESULTS_High_Present: SimResult[] = [
 
 
 
-    footprint: "Present",
+    footprint: "Absent",
 
 
 
@@ -1918,7 +1918,7 @@ export const RESULTS_High_Present: SimResult[] = [
 
 
 
-    footprint: "Present",
+    footprint: "Absent",
 
 
 
@@ -1966,7 +1966,7 @@ export const RESULTS_High_Present: SimResult[] = [
 
 
 
-    footprint: "Present",
+    footprint: "Absent",
 
 
 
@@ -2014,7 +2014,7 @@ export const RESULTS_High_Present: SimResult[] = [
 
 
 
-    footprint: "Present",
+    footprint: "Absent",
 
 
 
@@ -2087,7 +2087,7 @@ export const RESULTS_Todd_Smith: SimResult[] = [
     snippet: "CakeEater?? I grew up in the slums of Huntington Beach!! BUT SERIOUSLY I LOVE WILD WING AND THE MIGHTY DUCKS. I've been a fan since their inauguration. I know ...Read more",
     urlLike: "Instagram · todderic",
     discoverability: "Low",
-    footprint: "Present",
+    footprint: "Absent",
     race: "White American",
     location: "",
     followers: "1.9M+",
@@ -2100,7 +2100,7 @@ export const RESULTS_Todd_Smith: SimResult[] = [
     snippet: "Todd Edward Smith is an American singer, songwriter and guitarist who most notably fronts the rock band Dog Fashion Disco. He is also involved with the ...Read more",
     urlLike: "en.wikipedia.org › wiki › Todd_Smith_(musician)",
     discoverability: "Low",
-    footprint: "Present",
+    footprint: "Absent",
     race: "White American",
     location: "",
     imageKey: "avatar2"
@@ -2112,7 +2112,7 @@ export const RESULTS_Todd_Smith: SimResult[] = [
     snippet: "Todd Smith. 13301 likes · 875 talking about this. \"How Good It Gets\" is OUT! Married to Angie. Father of 5 girls. Lead singer in Selah...",
     urlLike: "Facebook · Todd Smith",
     discoverability: "Low",
-    footprint: "Present",
+    footprint: "Absent",
     race: "White American",
     location: "",
     followers: "13.3K+",
@@ -2125,7 +2125,7 @@ export const RESULTS_Todd_Smith: SimResult[] = [
     snippet: "Todd Smith is a 26 year old former bartender turned Vine Star. He is currently a social media influencer with fellow roommates Scotty Sire, David Dobrik, Heath ...Read more",
     urlLike: "www.imdb.com › name",
     discoverability: "Low",
-    footprint: "Present",
+    footprint: "Absent",
     race: "White American",
     location: "",
     imageKey: "avatar4"
@@ -2137,7 +2137,7 @@ export const RESULTS_Todd_Smith: SimResult[] = [
     snippet: "❤️ Angie/5 girls 4 million albums/1 Billion streams @selahonline. Detroit/Congo kid (DRC) Belmont U Alum. I am a diehard ...Read more",
     urlLike: "Instagram · officialtoddsmith",
     discoverability: "Low",
-    footprint: "Present",
+    footprint: "Absent",
     race: "White American",
     location: "",
     followers: "28.1K+",
@@ -2150,7 +2150,7 @@ export const RESULTS_Todd_Smith: SimResult[] = [
     snippet: "21 hours ago — Doctors later confirmed Todd had suffered a heart attack caused by an 80 percent blockage in his left anterior descending artery, commonly ...Read more",
     urlLike: "www.audacy.com › ... › Entertainment › Local",
     discoverability: "Low",
-    footprint: "Present",
+    footprint: "Absent",
     race: "White American",
     location: "",
     imageKey: "avatar6"
@@ -2162,7 +2162,7 @@ export const RESULTS_Todd_Smith: SimResult[] = [
     snippet: "Follow Todd Smith and explore their bibliography from Amazon's Todd Smith Author Page.",
     urlLike: "www.amazon.com › Todd-Smith",
     discoverability: "Low",
-    footprint: "Present",
+    footprint: "Absent",
     race: "White American",
     location: "",
     imageKey: "avatar7"
@@ -2174,7 +2174,7 @@ export const RESULTS_Todd_Smith: SimResult[] = [
     snippet: "Todd Smith (born James Todd Smith) is a singer and songwriter best known as a founding member of the CCM band Selah. Born in Michigan, Smith spent his early ...Read more",
     urlLike: "music.apple.com › artist › todd-smith",
     discoverability: "Low",
-    footprint: "Present",
+    footprint: "Absent",
     race: "White American",
     location: "",
     imageKey: "avatar8"
@@ -2186,7 +2186,7 @@ export const RESULTS_Todd_Smith: SimResult[] = [
     snippet: "Todd Smith is a US and international tax lawyer with deep experience developing tax efficiencies and managing risks related to institutional investors' ...",
     urlLike: "www.morganlewis.com › bios › toddsmith",
     discoverability: "Low",
-    footprint: "Present",
+    footprint: "Absent",
     race: "White American",
     location: "",
     imageKey: "avatar9"
@@ -2198,7 +2198,7 @@ export const RESULTS_Todd_Smith: SimResult[] = [
     snippet: "Sam Smith. @samsmith. Follow. Follow. Nicki Minaj. @nickiminaj. Follow. Follow. insta/: todderic snapchat: toddysmithy email: Jack@millentertainment.com. hoo.be ...Read more",
     urlLike: "TikTok · ToddySmith",
     discoverability: "Low",
-    footprint: "Present",
+    footprint: "Absent",
     race: "White American",
     location: "",
     followers: "1.9M+",
@@ -2212,7 +2212,7 @@ export const RESULTS_Todd_Smith: SimResult[] = [
     snippet: "Singles and EPs · How Good It Gets · Keep On Fighting · Brave Enough · Promises · Leave It to Love · Against All Odds · Faithfully. Single • 2021. Featuring ...Read more",
     urlLike: "open.spotify.com › artist",
     discoverability: "Low",
-    footprint: "Present",
+    footprint: "Absent",
     race: "White American",
     location: "",
     imageKey: "avatar11"
@@ -2224,7 +2224,7 @@ export const RESULTS_Todd_Smith: SimResult[] = [
     snippet: "Singer and songwriter best known as a founding member of the popular CCM band Selah. Read Full Biography Active 1990s - 2010s Born in MichiganRead more",
     urlLike: "www.allmusic.com › todd-smith-mn0000616632",
     discoverability: "Low",
-    footprint: "Present",
+    footprint: "Absent",
     race: "White American",
     location: "",
     imageKey: "avatar12"
@@ -2236,7 +2236,7 @@ export const RESULTS_Todd_Smith: SimResult[] = [
     snippet: "Founding Partner. Chicago lawyer Todd A. ... Our Chicago personal injury lawyers have achieved more than $3.5 billion in settlements and verdicts and attained ...Read more",
     urlLike: "www.smithlacien.com › attorney › smith-todd-a",
     discoverability: "Low",
-    footprint: "Present",
+    footprint: "Absent",
     race: "White American",
     location: "Chicago, IL",
     imageKey: "avatar13"
@@ -2248,7 +2248,7 @@ export const RESULTS_Todd_Smith: SimResult[] = [
     snippet: "1.1M+ followers · Share your videos with friends, family, and the world.",
     urlLike: "YouTube · toddy smith",
     discoverability: "Low",
-    footprint: "Present",
+    footprint: "Absent",
     race: "White American",
     location: "",
     followers: "1.1M+",
@@ -2261,7 +2261,7 @@ export const RESULTS_Todd_Smith: SimResult[] = [
     snippet: "For fans of Ted Lasso and Welcome to Wrexham, Relegated is a travel memoir through English football culture and a journey to the heart of English football.",
     urlLike: "www.toddsmithauthor.com",
     discoverability: "Low",
-    footprint: "Present",
+    footprint: "Absent",
     race: "White American",
     location: "",
     imageKey: "avatar15"
@@ -2273,7 +2273,7 @@ export const RESULTS_Todd_Smith: SimResult[] = [
     snippet: "I'm a guy who really wants to know the truth. I want to catch the ways that I make myself suffer. I don't want to turn a blind eye, even to the little ways ...Read more",
     urlLike: "www.theworkasmeditation.com › about",
     discoverability: "Low",
-    footprint: "Present",
+    footprint: "Absent",
     race: "White American",
     location: "",
     imageKey: "avatar16"
@@ -2285,7 +2285,7 @@ export const RESULTS_Todd_Smith: SimResult[] = [
     snippet: "Todd Smith ... Todd Smith was named head coach of the TSU men's and women's tennis on October 25, 2021. A Tennessee native, Todd grew up playing tennis at the age ...Read more",
     urlLike: "tsutigers.com › sports › womens-tennis › roster",
     discoverability: "Low",
-    footprint: "Present",
+    footprint: "Absent",
     race: "White American",
     location: "",
     imageKey: "avatar17"
@@ -2297,7 +2297,7 @@ export const RESULTS_Todd_Smith: SimResult[] = [
     snippet: "19 hours ago — Todd Smith, a 21-year veteran of the DEA, became the highest-ranking official for the agency in Illinois, Indiana and Wisconsin last month.Read more",
     urlLike: "www.fox32chicago.com › news › dea-chicago-c...",
     discoverability: "Low",
-    footprint: "Present",
+    footprint: "Absent",
     race: "White American",
     location: "Chicago, IL",
     imageKey: "avatar18"
@@ -2309,7 +2309,7 @@ export const RESULTS_Todd_Smith: SimResult[] = [
     snippet: "He is married to author/speaker Angie Smith. They live with their four girls in Nashville, TN. Growing up as the son of missionaries in a house that his ...Read more",
     urlLike: "www.newreleasetoday.com › artistdetail",
     discoverability: "Low",
-    footprint: "Present",
+    footprint: "Absent",
     race: "White American",
     location: "Nashville, TN",
     imageKey: "avatar19"
@@ -2321,7 +2321,7 @@ export const RESULTS_Todd_Smith: SimResult[] = [
     snippet: "by Angie Smith. Angie is married to Todd Smith, of the Christian vocal group, Selah, and mom to five daughters. In 2008, the Smiths received news that their ...Read more",
     urlLike: "www.laurelbox.com › pages › angiesmith",
     discoverability: "Low",
-    footprint: "Present",
+    footprint: "Absent",
     race: "White American",
     location: "",
     imageKey: "avatar20"
@@ -2334,7 +2334,7 @@ export const RESULTS_Todd_Smith: SimResult[] = [
     snippet: "5K+ followers · Park City, Utah, United States · Beekeeper's Naturals ... Todd Smith's profile on LinkedIn, a professional community of 1 billion members ... Todd Smith. Beekeeper's Naturals UNC's Kenan-Flagler Business School ...Read more",
     urlLike: "LinkedIn · Todd Smith",
     discoverability: "Low",
-    footprint: "Present",
+    footprint: "Absent",
     race: "White American",
     location: "Park City, Utah",
     followers: "5K+",
@@ -2347,7 +2347,7 @@ export const RESULTS_Todd_Smith: SimResult[] = [
     snippet: "todd c smith · projects · design · cv · about · statement · student work · contact · Exuviae. 2007-2022 · Bike Sense Louisville · 2017-2020 · WholeCommunityKY.Read more",
     urlLike: "toddcsmith.com",
     discoverability: "Low",
-    footprint: "Present",
+    footprint: "Absent",
     race: "White American",
     location: "",
     imageKey: "avatar22"
@@ -2359,7 +2359,7 @@ export const RESULTS_Todd_Smith: SimResult[] = [
     snippet: "Todd Smith believes that every dispute can be resolved through mediation. The foundation of his approach is driving a reasonable, ethical and productive process ...Read more",
     urlLike: "toddasmith.com",
     discoverability: "Low",
-    footprint: "Present",
+    footprint: "Absent",
     race: "White American",
     location: "",
     imageKey: "avatar23"
@@ -2371,7 +2371,7 @@ export const RESULTS_Todd_Smith: SimResult[] = [
     snippet: "Todd Smith, MD - Vascular Surgery - CHRISTUS Trinity Clinic English All Ages 4.9/5 Read Reviews 903-606-1400Read more",
     urlLike: "www.christushealth.org › todd-smith-02598",
     discoverability: "Low",
-    footprint: "Present",
+    footprint: "Absent",
     race: "White American",
     location: "",
     imageKey: "avatar24"
@@ -2383,7 +2383,7 @@ export const RESULTS_Todd_Smith: SimResult[] = [
     snippet: "17.8K+ followers · This playlists contains all my free sounds and sample based videos. Keep a ear out for new few custom sounds ! You can support my You Tube and music on Patreon.Read more",
     urlLike: "www.youtube.com › Todd Smith Music",
     discoverability: "Low",
-    footprint: "Present",
+    footprint: "Absent",
     race: "White American",
     location: "",
     followers: "17.8K+",
@@ -2396,7 +2396,7 @@ export const RESULTS_Todd_Smith: SimResult[] = [
     snippet: "70 Invitations that Awaken Your Heart from Global Revivalists including Randy Clark, David Hogan, James W. Goll, John and Carol Arnott, Dr. Michael Brown and more!Read more",
     urlLike: "www.thriftbooks.com › todd-smith",
     discoverability: "Low",
-    footprint: "Present",
+    footprint: "Absent",
     race: "White American",
     location: "",
     imageKey: "avatar26"
@@ -2408,7 +2408,7 @@ export const RESULTS_Todd_Smith: SimResult[] = [
     snippet: "0:20 · Todd Smith 󱢏 ... All of our trees have been frozen over. Everything has m... ... This made me laugh so hard! So many funny videos during ... ... You've got to ...",
     urlLike: "www.facebook.com · Dec 31, 2025",
     discoverability: "Low",
-    footprint: "Present",
+    footprint: "Absent",
     race: "White American",
     location: "",
     imageKey: "avatar27"
@@ -2420,7 +2420,7 @@ export const RESULTS_Todd_Smith: SimResult[] = [
     snippet: "Jun 14, 2016 — Selah's hits include such signature songs as \"You Raise Me Up,\" \"Wonderful, Merciful Savior\" and \"Press On.\" Smith is married to best-selling ...Read more",
     urlLike: "www.ccmmagazine.com › features › qa-with-tod...",
     discoverability: "Low",
-    footprint: "Present",
+    footprint: "Absent",
     race: "White American",
     location: "",
     imageKey: "avatar28"
@@ -2432,7 +2432,7 @@ export const RESULTS_Todd_Smith: SimResult[] = [
     snippet: "Board-Certified Orthopedic Spine Surgeon. J. Todd Smith, MD is a Board-Certified Orthopedic Surgeon specializing in orthopedic spine surgery. He has over 25 ...Read more",
     urlLike: "birminghamorthospine.com › about",
     discoverability: "Low",
-    footprint: "Present",
+    footprint: "Absent",
     race: "White American",
     location: "",
     imageKey: "avatar29"
@@ -2444,7 +2444,7 @@ export const RESULTS_Todd_Smith: SimResult[] = [
     snippet: "First built an online audience on Vine, where he frequently collaborated with fellow Vine star Scotty Sire. He now has over more than 1 million subscribers to ...Read more",
     urlLike: "www.famousbirthdays.com › people › toddy-smith",
     discoverability: "Low",
-    footprint: "Present",
+    footprint: "Absent",
     race: "White American",
     location: "",
     imageKey: "avatar30"
@@ -2457,7 +2457,7 @@ export const RESULTS_Todd_Smith: SimResult[] = [
     snippet: "❤️ Angie/5 girls 4 million albums/1 Billion streams @selahonline. Detroit/Congo kid (DRC) Belmont U Alum · 7,423 · 16.2M · 13.7K.Read more",
     urlLike: "www.instagram.com › officialtoddsmith",
     discoverability: "Low",
-    footprint: "Present",
+    footprint: "Absent",
     race: "White American",
     location: "",
     followers: "13.7K+",
@@ -2470,7 +2470,7 @@ export const RESULTS_Todd_Smith: SimResult[] = [
     snippet: "Toddy Smith has worked with some of his best friends (and fellow social media stars) for years now. He started on Vine, but now he creates hilarious comedic ...Read more",
     urlLike: "shortyawards.com › todderic_",
     discoverability: "Low",
-    footprint: "Present",
+    footprint: "Absent",
     race: "White American",
     location: "",
     imageKey: "avatar32"
@@ -2482,7 +2482,7 @@ export const RESULTS_Todd_Smith: SimResult[] = [
     snippet: "Jan 13, 2026 — Todd Smith, who led prosecutions tied to the Flores twins, became DEA Chicago's SAC and says he will focus on disrupting fentanyl and meth ...",
     urlLike: "hoodline.com › 2026/01 › cartel-buster-todd-smi...",
     discoverability: "Low",
-    footprint: "Present",
+    footprint: "Absent",
     race: "White American",
     location: "Chicago, IL",
     imageKey: "avatar33"
@@ -2494,7 +2494,7 @@ export const RESULTS_Todd_Smith: SimResult[] = [
     snippet: "We have spent 40+ years refining Todd Smith Fitness exercise system to deliver the best experience for mind, body, and spirit of each one of our customers every ...Read more",
     urlLike: "www.toddsmithfitness.com",
     discoverability: "Low",
-    footprint: "Present",
+    footprint: "Absent",
     race: "White American",
     location: "Omaha, NE",
     imageKey: "avatar34"
@@ -2506,7 +2506,7 @@ export const RESULTS_Todd_Smith: SimResult[] = [
     snippet: "6 days ago — Their new movie is based on the book \"Relationship Goals: How to Win at Dating, Marriage, and Sex\" by Pastor Michael Todd. Smith's character in ...Read more",
     urlLike: "ktvz.com › cnn-entertainment › 2026/02/04 › kell...",
     discoverability: "Low",
-    footprint: "Present",
+    footprint: "Absent",
     race: "White American",
     location: "",
     imageKey: "avatar35"
@@ -2518,7 +2518,7 @@ export const RESULTS_Todd_Smith: SimResult[] = [
     snippet: "I can't think of a better way to celebrate turning 72. Tonight I am overwhelmed at how blessed I am. My daughters honored me all week and treated me with such ...Read more",
     urlLike: "www.facebook.com › ... › Artist › Todd Smith",
     discoverability: "Low",
-    footprint: "Present",
+    footprint: "Absent",
     race: "White American",
     location: "",
     imageKey: "avatar36"
@@ -2530,7 +2530,7 @@ export const RESULTS_Todd_Smith: SimResult[] = [
     snippet: "Todd Smith (born James Todd Smith) is a singer and songwriter best known as a founding member of the CCM band Selah. Born in Michigan, Smith spent his early ...Read more",
     urlLike: "www.iheart.com › artist › todd-smith-31455596",
     discoverability: "Low",
-    footprint: "Present",
+    footprint: "Absent",
     race: "White American",
     location: "",
     imageKey: "avatar37"
@@ -2542,7 +2542,7 @@ export const RESULTS_Todd_Smith: SimResult[] = [
     snippet: "Todd Smith - \"Dmitri's Song (Jesus Is Alive)\". 128K views. 9 years ago · 4:27. Todd Smith & Ellie Holcomb - \"You're The Water, You're The Shore\" (Official Video).Read more",
     urlLike: "www.youtube.com › @therealtoddsmith › videos",
     discoverability: "Low",
-    footprint: "Present",
+    footprint: "Absent",
     race: "White American",
     location: "",
     imageKey: "avatar38"
@@ -2554,7 +2554,7 @@ export const RESULTS_Todd_Smith: SimResult[] = [
     snippet: "13.9K+ views · 5 years ago · 48:07 · Singing worship songs from our community pool house in Nashville! Join Todd Smith of #Selah and his neighbor Daniel Carson (guitarist for ...",
     urlLike: "YouTube · TheSelahVideos",
     discoverability: "Low",
-    footprint: "Present",
+    footprint: "Absent",
     race: "White American",
     location: "Nashville, TN",
     imageKey: "avatar39"
@@ -2566,7 +2566,7 @@ export const RESULTS_Todd_Smith: SimResult[] = [
     snippet: "Oct 13, 2023 — CDM Presents: An Interview with Todd Smith of Dog Fashion Disco ... Brian sits down with vocalist Todd Smith of Maryland experimental metal ...Read more",
     urlLike: "cavedwellermusic.net › albums-reviews › todd-s...",
     discoverability: "Low",
-    footprint: "Present",
+    footprint: "Absent",
     race: "White American",
     location: "",
     imageKey: "avatar40"
@@ -2579,7 +2579,7 @@ export const RESULTS_Todd_Smith: SimResult[] = [
     snippet: "People · Todd Smith (musician), American singer, songwriter and guitarist · Todd Smith (politician), Canadian politician · Todd Smith, American vocalist and ...Read more",
     urlLike: "en.wikipedia.org › wiki › Todd_Smith",
     discoverability: "Low",
-    footprint: "Present",
+    footprint: "Absent",
     race: "White American",
     location: "",
     imageKey: "avatar41"
@@ -2591,7 +2591,7 @@ export const RESULTS_Todd_Smith: SimResult[] = [
     snippet: "This honor is the highest given in the strength and conditioning coaching profession. Smith arrived at Marquette after spending six years as the Director of ...Read more",
     urlLike: "gomarquette.com › staff-directory › todd-smith",
     discoverability: "Low",
-    footprint: "Present",
+    footprint: "Absent",
     race: "White American",
     location: "",
     imageKey: "avatar42"
@@ -2603,7 +2603,7 @@ export const RESULTS_Todd_Smith: SimResult[] = [
     snippet: "Explore Todd Smith's discography on Discogs. Shop for vinyl, CDs, and more from Todd Smith on the Discogs Marketplace. View releases and credits.Read more",
     urlLike: "www.discogs.com › artist › Todd+Smith",
     discoverability: "Low",
-    footprint: "Present",
+    footprint: "Absent",
     race: "White American",
     location: "",
     imageKey: "avatar43"
@@ -2615,7 +2615,7 @@ export const RESULTS_Todd_Smith: SimResult[] = [
     snippet: "Actor · Geoffrey Gould, J. Allen Williams, and Bozana Cavar in Everything (2023). Everything. 6.6 · Darkstar: The Interactive Movie (2010). Darkstar: The ...Read more",
     urlLike: "www.imdb.com › name",
     discoverability: "Low",
-    footprint: "Present",
+    footprint: "Absent",
     race: "White American",
     location: "",
     imageKey: "avatar44"
@@ -2627,7 +2627,7 @@ export const RESULTS_Todd_Smith: SimResult[] = [
     snippet: "Work · About · Press · CV · Contact · Geoffrey Todd Smith · Work · About · Press · CV · Contact. Home. Top. New Page.Read more",
     urlLike: "www.geoffreytoddsmith.com",
     discoverability: "Low",
-    footprint: "Present",
+    footprint: "Absent",
     race: "White American",
     location: "",
     imageKey: "avatar45"
@@ -2639,7 +2639,7 @@ export const RESULTS_Todd_Smith: SimResult[] = [
     snippet: "Contents ... Todd Smith is a former Republican member of the Texas House of Representatives, representing District 92 from 1997 to 2013. Prior to his election he ...Read more",
     urlLike: "ballotpedia.org › Todd_Smith,_Texas_Representat...",
     discoverability: "Low",
-    footprint: "Present",
+    footprint: "Absent",
     race: "White American",
     location: "Texas",
     imageKey: "avatar46"
@@ -2651,7 +2651,7 @@ export const RESULTS_Todd_Smith: SimResult[] = [
     snippet: "Todd Smith (musician) · Age · Family · Birth · Work · Locations · Personal · More #1 Most Famous Person Stuff · Fame Ranking. What does \"Most Famous\" mean?Read more",
     urlLike: "playback.fm › Lists › People",
     discoverability: "Low",
-    footprint: "Present",
+    footprint: "Absent",
     race: "White American",
     location: "",
     imageKey: "avatar47"
@@ -2663,7 +2663,7 @@ export const RESULTS_Todd_Smith: SimResult[] = [
     snippet: "Todd Smith Consulting offers leadership development, business strategy, and executive coaching services. Helping leaders and organizations reach their full potential.",
     urlLike: "toddsmithconsulting.com › author",
     discoverability: "Low",
-    footprint: "Present",
+    footprint: "Absent",
     race: "White American",
     location: "",
     imageKey: "avatar48"
@@ -2675,7 +2675,7 @@ export const RESULTS_Todd_Smith: SimResult[] = [
     snippet: "410+ followers. Singer, songwriter, and lead vocalist of Selah. Sharing faith, family, and music. Follow for behind-the-scenes content.",
     urlLike: "TikTok · todd smith",
     discoverability: "Low",
-    footprint: "Present",
+    footprint: "Absent",
     race: "White American",
     location: "",
     followers: "410+",
@@ -2683,14 +2683,14 @@ export const RESULTS_Todd_Smith: SimResult[] = [
   },
   {
     id: "todd50",
-    platform: "Vickers Funeral Home",
-    displayName: "Obituary information for Todd Michel Smith",
-    snippet: "View the obituary for Todd Michel Smith. Share memories, leave condolences, and find funeral service information at Vickers Funeral Home.",
-    urlLike: "www.vickersfuneralhomes.com › obituaries › Tod...",
+    platform: "Nextdoor",
+    displayName: "Todd Smith - Recommended Contractor in Omaha",
+    snippet: "Neighbors recommend Todd Smith for general contracting and home improvement services in the Omaha area. Specializes in kitchen and bathroom remodels.",
+    urlLike: "nextdoor.com › pages › todd-smith-contracting",
     discoverability: "Low",
-    footprint: "Present",
+    footprint: "Absent",
     race: "White American",
-    location: "",
+    location: "Omaha, NE",
     imageKey: "avatar50"
   }
 ];
