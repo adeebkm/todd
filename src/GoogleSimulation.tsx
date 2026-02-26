@@ -3,7 +3,7 @@ import { TopBar } from './components/TopBar';
 import { Tabs } from './components/Tabs';
 import { ResultCard } from './components/ResultCard';
 import { PeopleAlsoSearchFor } from './components/PeopleAlsoSearchFor';
-import { KnowledgePanel } from './components/KnowledgePanel';
+
 import {
   RESULTS_Todd_Smith,
   type SimResult
@@ -261,10 +261,6 @@ const GoogleSimulation: React.FC<GoogleSimulationProps> = ({ searchType = 'todd'
             )}
           </div>
 
-          {/* Knowledge Panel - Right Side */}
-          {activeTab === 'All' && currentPage === 1 && (
-            <KnowledgePanel isDark={isDark} />
-          )}
         </div>
       </div>
     </div>
