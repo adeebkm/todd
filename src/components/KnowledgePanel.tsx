@@ -5,12 +5,6 @@ interface KnowledgePanelProps {
 }
 
 export const KnowledgePanel: React.FC<KnowledgePanelProps> = ({ isDark = false }) => {
-  const images = [
-    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYRALrgLacCX-kQ1y5uOBCBkV0JLTJZLhR7UAg4KC52mCBgibh0M-tRhLkxlTVwyyDmt2mu5cOcf2AOxAwmNbb-GE06ZiJeqCLX7dotYXz8A&s=10',
-    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTk1FBYkfhgcvScte8CM3FljyF3XUpBJu7jUs7Skoces457Yg1hsRGq7A-euSCvaBD5vcNK5ZTtztewHrYLmWxleJ9ojEika5qCgaDjiUjKAg&s=10',
-    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO_Ki-Zf6-WkXUlCIhGYGvVUfI4TOt3iky8LzeKG-_gubmqRG2OZFmJ44Zazh22dZ2zaZ1KkOajjt646YGxPCOsRjHttapx2W-AoPb6xPiSg&s=10'
-  ];
-
   return (
     <div style={{
       width: '385px',
@@ -41,62 +35,6 @@ export const KnowledgePanel: React.FC<KnowledgePanelProps> = ({ isDark = false }
           marginTop: '4px'
         }}>
           Writer
-        </div>
-      </div>
-
-      {/* Images Grid */}
-      <div style={{
-        display: 'grid',
-        gridTemplateColumns: '1fr 1fr',
-        gap: '4px',
-        marginBottom: '16px',
-        borderRadius: '8px',
-        overflow: 'hidden'
-      }}>
-        <div style={{ gridRow: 'span 2' }}>
-          <img
-            src={images[0]}
-            alt="Toddy Smith"
-            style={{
-              width: '100%',
-              height: '100%',
-              objectFit: 'cover',
-              display: 'block'
-            }}
-            onError={(e) => {
-              (e.target as HTMLImageElement).style.display = 'none';
-            }}
-          />
-        </div>
-        <div>
-          <img
-            src={images[1]}
-            alt="Toddy Smith"
-            style={{
-              width: '100%',
-              height: '100%',
-              objectFit: 'cover',
-              display: 'block'
-            }}
-            onError={(e) => {
-              (e.target as HTMLImageElement).style.display = 'none';
-            }}
-          />
-        </div>
-        <div>
-          <img
-            src={images[2]}
-            alt="Toddy Smith"
-            style={{
-              width: '100%',
-              height: '100%',
-              objectFit: 'cover',
-              display: 'block'
-            }}
-            onError={(e) => {
-              (e.target as HTMLImageElement).style.display = 'none';
-            }}
-          />
         </div>
       </div>
 
