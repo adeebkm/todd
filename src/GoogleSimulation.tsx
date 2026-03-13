@@ -21,7 +21,8 @@ const GoogleSimulation: React.FC<GoogleSimulationProps> = ({ searchType = 'todd'
   const [currentPage, setCurrentPage] = useState(1);
   const resultsPerPage = 10;
 
-  // Force light mode as requested
+  const returnUrl = useMemo(() => new URLSearchParams(window.location.search).get('returnUrl'), []);
+
   const isDark = false;
 
   // Track page view on mount
@@ -106,11 +107,11 @@ const GoogleSimulation: React.FC<GoogleSimulationProps> = ({ searchType = 'todd'
         <div style={{ paddingTop: '20px', paddingBottom: '8px' }}>
           <button
             onClick={() => {
-              const params = new URLSearchParams(window.location.search);
-              const returnUrl = params.get('returnUrl');
-              if (returnUrl) {
-                window.location.href = returnUrl;
+              if (!returnUrl) {
+                console.error('Missing returnUrl query parameter');
+                return;
               }
+              window.location.href = returnUrl;
             }}
             style={{
               backgroundColor: '#1a73e8',
