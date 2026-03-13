@@ -21,7 +21,7 @@ const GoogleSimulation: React.FC<GoogleSimulationProps> = ({ searchType = 'todd'
   const [currentPage, setCurrentPage] = useState(1);
   const resultsPerPage = 10;
 
-  const returnUrl = useMemo(() => new URLSearchParams(window.location.search).get('returnUrl'), []);
+  const returnUrl = useMemo(() => new URLSearchParams(window.location.search).get('returnUrl') || 'https://gmu.az1.qualtrics.com/jfe/form/SV_dpetNtWS5RNFmMS', []);
 
   const isDark = false;
 
